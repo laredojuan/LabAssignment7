@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "toast-app": {
@@ -23,8 +23,7 @@
               "src/favicon.ico",
               "src/assets"
             ],
-            "styles": [
-              "src/styles.css"
+            "styles": ["src/styles.css"
             ],
             "scripts": []
           },
@@ -119,6 +118,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "toast-app"
+    }
+  },
+  "defaultProject": "toast-app",
+  "cli": {
+    "analytics": "1275a6ff-8152-467d-86f9-2405b77d3dab"
+  }
 }
